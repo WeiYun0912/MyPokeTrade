@@ -50,7 +50,7 @@
   {
     "id": 390,
     "name": "小火焰猴",
-    "comment": "等級球",
+    "comment": "速度球",
     "category": "pm"
   },
   {
@@ -128,6 +128,30 @@
   {
     "id": 393,
     "name": "波加曼",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 315,
+    "name": "毒薔薇",
+    "comment": "甜蜜球 親名",
+    "category": "pm"
+  },
+  {
+    "id": 78,
+    "name": "烈焰馬",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 137,
+    "name": "多邊獸",
+    "comment": "月亮球",
+    "category": "pm"
+  },
+  {
+    "id": 396,
+    "name": "姆克兒",
     "comment": "",
     "category": "pm"
   }
