@@ -11,6 +11,8 @@ import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
 import Divider from "@material-ui/core/Divider";
 
+import styled from "styled-components";
+
 const Pokemons = () => {
   const [pokemons, setPokemons] = useState([]);
   const [searchPokemon, setSearchPokemon] = useState();
@@ -71,48 +73,43 @@ const Pokemons = () => {
   return (
     <>
       <Divider light={true} />
-
-      <Box
-        sx={{
-          margin: "20px 0",
-          display: "flex",
-          width: "100%",
-          justifyContent: "space-between",
-        }}
-      >
-        <input
-          type="text"
-          style={{ fontSize: "18px", textIndent: "10px" }}
-          maxLength="3"
-          placeholder="請輸入寶可夢編號"
-          onChange={searchHandler}
-        />
-        <TablePagination
-          rowsPerPageOptions={[20, 40]}
-          labelRowsPerPage="每頁列數："
-          component="div"
-          count={493}
-          rowsPerPage={rowsPerPage}
-          page={tablePage}
-          onPageChange={handleChangePage}
-          onRowsPerPageChange={handleChangeRowsPerPage}
-        />
-      </Box>
-
-      <TableContainer>
+      <ActionArea>
+        <Box>
+          <input
+            type="text"
+            style={{ fontSize: "18px", textIndent: "10px", height: "50px" }}
+            maxLength="3"
+            placeholder="請輸入寶可夢編號"
+            onChange={searchHandler}
+          />
+        </Box>
+        <Box>
+          <TablePagination
+            rowsPerPageOptions={[20, 40]}
+            labelRowsPerPage="每頁列數："
+            component="div"
+            count={493}
+            rowsPerPage={rowsPerPage}
+            page={tablePage}
+            onPageChange={handleChangePage}
+            onRowsPerPageChange={handleChangeRowsPerPage}
+          />
+        </Box>
+      </ActionArea>
+      <TableContainer style={{ maxHeight: "750px" }}>
         <Table stickyHeader size="small" aria-label="sticky table">
           <TableHead>
             <TableRow>
-              <TableCell>
+              <TableCell style={{ minWidth: "50px" }}>
                 <Typography variant="h6">No.</Typography>
               </TableCell>
-              <TableCell>
+              <TableCell style={{ minWidth: "50px" }}>
                 <Typography variant="h6">圖片</Typography>
               </TableCell>
-              <TableCell>
+              <TableCell style={{ minWidth: "100px" }}>
                 <Typography variant="h6">名稱</Typography>
               </TableCell>
-              <TableCell>
+              <TableCell style={{ minWidth: "50px" }} l>
                 <Typography variant="h6">色違</Typography>
               </TableCell>
             </TableRow>
@@ -127,3 +124,14 @@ const Pokemons = () => {
 };
 
 export default Pokemons;
+
+const ActionArea = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+
+  @media (max-width: 40rem) {
+    flex-direction: column;
+  }
+`;

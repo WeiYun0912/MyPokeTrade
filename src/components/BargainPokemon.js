@@ -15,20 +15,20 @@ const Bargain = () => {
       <Typography variant="h4" style={{ margin: "20px 0" }}>
         我的籌碼(寶可夢) 持續更新中....
       </Typography>
-      <TableContainer style={{ margin: "20px 0 " }}>
+      <TableContainer style={{ margin: "20px 0 ", maxHeight: "750px" }}>
         <Table stickyHeader size="small" aria-label="sticky table">
           <TableHead>
             <TableRow>
-              <TableCell>
+              <TableCell style={{ minWidth: "50px" }}>
                 <Typography variant="h6">No.</Typography>
               </TableCell>
-              <TableCell>
+              <TableCell style={{ minWidth: "50px" }}>
                 <Typography variant="h6">圖片</Typography>
               </TableCell>
-              <TableCell>
+              <TableCell style={{ minWidth: "100px" }}>
                 <Typography variant="h6">名稱</Typography>
               </TableCell>
-              <TableCell>
+              <TableCell style={{ minWidth: "50px" }}>
                 <Typography variant="h6">備註</Typography>
               </TableCell>
             </TableRow>

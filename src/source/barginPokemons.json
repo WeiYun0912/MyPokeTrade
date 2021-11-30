@@ -2,7 +2,7 @@
   {
     "id": 280,
     "name": "拉魯拉斯",
-    "comment": "補網球 親名",
+    "comment": "補網球 親名 男",
     "category": "pm"
   },
   {
@@ -122,7 +122,7 @@
   {
     "id": 349,
     "name": "醜醜魚",
-    "comment": "甜蜜球",
+    "comment": "甜蜜球 男",
     "category": "pm"
   },
   {
@@ -153,6 +153,144 @@
     "id": 396,
     "name": "姆克兒",
     "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 158,
+    "name": "小鋸鱷",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 155,
+    "name": "火球鼠",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 179,
+    "name": "咩利羊",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 77,
+    "name": "小火馬",
+    "comment": "潛水球",
+    "category": "pm"
+  },
+  {
+    "id": 387,
+    "name": "草苗龜",
+    "comment": "巢穴球",
+    "category": "pm"
+  },
+  {
+    "id": 467,
+    "name": "鴨嘴炎獸",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 181,
+    "name": "電龍",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 472,
+    "name": "天蠍王",
+    "comment": "甜蜜球",
+    "category": "pm"
+  },
+  {
+    "id": 483,
+    "name": "帝牙盧卡",
+    "comment": "3V LV.47 1換2",
+    "category": "pm"
+  },
+  {
+    "id": 484,
+    "name": "帕路奇亞",
+    "comment": "3V LV.47 1換2",
+    "category": "pm"
+  },
+  {
+    "id": 92,
+    "name": "鬼斯",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 131,
+    "name": "拉普拉斯",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 482,
+    "name": "亞克諾姆",
+    "comment": "3V LV.50 1換2",
+    "category": "pm"
+  },
+  {
+    "id": 374,
+    "name": "鐵啞鈴",
+    "comment": "沉重球",
+    "category": "pm"
+  },
+  {
+    "id": 431,
+    "name": "魅力喵",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 175,
+    "name": "波克比",
+    "comment": "月亮球",
+    "category": "pm"
+  },
+  {
+    "id": 152,
+    "name": "菊草葉",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 103,
+    "name": "椰蛋樹",
+    "comment": "甜蜜球",
+    "category": "pm"
+  },
+  {
+    "id": 59,
+    "name": "風速狗",
+    "comment": "甜蜜球",
+    "category": "pm"
+  },
+  {
+    "id": 297,
+    "name": "鐵掌力士",
+    "comment": "甜蜜球",
+    "category": "pm"
+  },
+  {
+    "id": 4,
+    "name": "小火龍",
+    "comment": "月亮球",
+    "category": "pm"
+  },
+  {
+    "id": 401,
+    "name": "圓法師",
+    "comment": "月亮球",
+    "category": "pm"
+  },
+  {
+    "id": 200,
+    "name": "夢妖",
+    "comment": "月亮球",
     "category": "pm"
   }
 ]
