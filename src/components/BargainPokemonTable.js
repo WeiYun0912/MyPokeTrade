@@ -7,42 +7,50 @@ import TableHead from "@material-ui/core/TableHead";
 import TableRow from "@material-ui/core/TableRow";
 import Typography from "@material-ui/core/Typography";
 
-import barginItems from "../source/barginItems.json";
+import barginPokemons from "../source/barginPokemons.json";
 
-const BargainItem = () => {
+const BargainPokemonTable = () => {
   return (
     <>
       <Typography variant="h4" style={{ margin: "20px 0" }}>
-        我的籌碼(道具)
+        我的籌碼(寶可夢) 持續更新中....
       </Typography>
-      <TableContainer style={{ margin: "20px 0 " }}>
+      <TableContainer style={{ margin: "20px 0 ", maxHeight: "750px" }}>
         <Table stickyHeader size="small" aria-label="sticky table">
           <TableHead>
             <TableRow>
-              <TableCell>
+              <TableCell style={{ minWidth: "50px" }}>
+                <Typography variant="h6">No.</Typography>
+              </TableCell>
+              <TableCell style={{ minWidth: "50px" }}>
                 <Typography variant="h6">圖片</Typography>
               </TableCell>
-              <TableCell>
+              <TableCell style={{ minWidth: "100px" }}>
                 <Typography variant="h6">名稱</Typography>
+              </TableCell>
+              <TableCell style={{ minWidth: "50px" }}>
+                <Typography variant="h6">備註</Typography>
               </TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
-            {barginItems
+            {barginPokemons
               .sort((a, b) => a.id - b.id)
               .map((bargin) => (
                 <TableRow key={bargin.id}>
                   <TableCell>
+                    <Typography variant="body1">{bargin.id}</Typography>
+                  </TableCell>
+                  <TableCell>
                     <Typography variant="body1">
-                      <img
-                        src={"assets/items/" + bargin.id + ".png"}
-                        style={{ width: "50px" }}
-                        alt=""
-                      />
+                      <img src={"assets/shiny/" + bargin.id + ".png"} alt="" />
                     </Typography>
                   </TableCell>
                   <TableCell>
                     <Typography variant="body1">{bargin.name}</Typography>
+                  </TableCell>
+                  <TableCell>
+                    <Typography variant="body1">{bargin.comment}</Typography>
                   </TableCell>
                 </TableRow>
               ))}
@@ -53,4 +61,4 @@ const BargainItem = () => {
   );
 };
 
-export default BargainItem;
+export default BargainPokemonTable;

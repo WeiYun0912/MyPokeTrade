@@ -1,10 +1,11 @@
 import { Container } from "@material-ui/core";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
-import BargainItem from "./components/BargainItem";
-import BargainPokemon from "./components/BargainPokemon";
-import Header from "./components/Header";
-import Pokemons from "./components/Pokemons";
+
+import Header from "./layout/Header";
+import BarginItem from "./pages/BargainItem";
+import BargainPokemon from "./pages/BargainPokemon";
+import WantPokemonsShiny from "./pages/WantPokemonsShiny";
 
 function App() {
   return (
@@ -13,9 +14,9 @@ function App() {
       <Container maxWidth="lg">
         <Routes>
           <Route path="/" element={<BargainPokemon />} />
-          <Route path="/pokemons" element={<Pokemons />} />
+          <Route path="/pokemons" element={<WantPokemonsShiny />} />
 
-          <Route path="/item" element={<BargainItem />} />
+          <Route path="/item" element={<BarginItem />} />
         </Routes>
       </Container>
     </BrowserRouter>
