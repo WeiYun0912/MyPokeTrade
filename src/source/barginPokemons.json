@@ -168,12 +168,6 @@
     "category": "pm"
   },
   {
-    "id": 179,
-    "name": "咩利羊",
-    "comment": "",
-    "category": "pm"
-  },
-  {
     "id": 77,
     "name": "小火馬",
     "comment": "潛水球",
@@ -188,12 +182,6 @@
   {
     "id": 467,
     "name": "鴨嘴炎獸",
-    "comment": "",
-    "category": "pm"
-  },
-  {
-    "id": 181,
-    "name": "電龍",
     "comment": "",
     "category": "pm"
   },
@@ -291,6 +279,78 @@
     "id": 200,
     "name": "夢妖",
     "comment": "月亮球",
+    "category": "pm"
+  },
+  {
+    "id": 361,
+    "name": "雪童子",
+    "comment": "月亮球 母",
+    "category": "pm"
+  },
+  {
+    "id": 265,
+    "name": "刺尾蟲",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 459,
+    "name": "雪笠怪",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 322,
+    "name": "呆火駝",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 66,
+    "name": "腕力",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 37,
+    "name": "六尾",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 228,
+    "name": "戴魯比",
+    "comment": "月亮球",
+    "category": "pm"
+  },
+  {
+    "id": 463,
+    "name": "大舌舔",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 104,
+    "name": "卡拉卡拉",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 72,
+    "name": "瑪瑙水母",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 257,
+    "name": "火焰雞",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 161,
+    "name": "尾立",
+    "comment": "親名 甜蜜球 月亮球 等級球 友友球",
     "category": "pm"
   }
 ]

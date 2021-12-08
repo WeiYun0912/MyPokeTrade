@@ -1,8 +1,8 @@
 import React from "react";
-import BargainItemTable from "../components/BargainItemTable";
+import BargainPokemonTable from "../components/BargainPokemonTable";
 
 const BargainPokemon = () => {
-  return <BargainItemTable />;
+  return <BargainPokemonTable />;
 };
 
 export default BargainPokemon;
