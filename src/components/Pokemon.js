@@ -10,9 +10,11 @@ const Pokemon = ({ id }) => {
     const response = await fetch(
       `https://pokeapi.co/api/v2/pokemon-species/${id}/`
     );
+
     const data = await response.json();
     setPokemon(data);
   };
+
   useEffect(() => {
     getPokemon();
   }, []);
@@ -29,7 +31,7 @@ const Pokemon = ({ id }) => {
         <TableCell>
           <Typography variant="body1">{pokemon?.names[3].name}</Typography>
         </TableCell>
-        <TableCell>
+        {/* <TableCell>
           {pokemonIds.some((hid) => +hid === +id) ? (
             <Typography
               variant="body1"
@@ -45,7 +47,7 @@ const Pokemon = ({ id }) => {
               沒有
             </Typography>
           )}
-        </TableCell>
+        </TableCell> */}
       </TableRow>
     </>
   );

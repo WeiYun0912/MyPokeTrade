@@ -38,7 +38,7 @@ const DesktopNav = () => {
             fontSize: "18px",
           }}
         >
-          我想換的色違
+          我想要的色違
         </Link>
       </Button>
     </div>

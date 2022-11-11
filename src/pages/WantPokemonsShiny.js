@@ -1,5 +1,5 @@
 import React from "react";
-import Pokemons from "../components/Pokemons";
+import Pokemons from "../components/NewPokemons";
 
 const WantPokemonsShiny = () => {
   return <Pokemons />;

@@ -46,24 +46,19 @@ const Pokemons = () => {
     searchPokemon();
   }, [search]);
 
-  const handleChangePage = (event, newPage) => {
-    setTablePage(newPage);
-  };
-
-  const handleChangeRowsPerPage = (event) => {
-    setRowsPerPage(+event.target.value);
-  };
-
   const searchHandler = (e) => {
     setSearch(e.target.value);
   };
 
   const RowsPokemon = () => {
-    return pokemons
-      .slice(tablePage * rowsPerPage, tablePage * rowsPerPage + rowsPerPage)
-      .map((pokemon) => (
-        <Pokemon key={pokemon.name} id={pokemon.url.split("/")[6]} />
-      ));
+    return pokemons.map((pokemon) => {
+      let id = pokemon.url.split("/")[6];
+      const existPokemon = pokemonIds.find((pid) => pid == id);
+
+      if (!existPokemon) {
+        return <Pokemon key={pokemon.name} id={id} />;
+      }
+    });
   };
 
   const PerPokemon = () => {
@@ -73,9 +68,7 @@ const Pokemons = () => {
   return (
     <>
       <Divider light={true} />
-      <Typography variant="h4" style={{ textAlign: "center" }}>
-        色違總數 : {pokemonIds.length}/493
-      </Typography>
+
       <ActionArea>
         <Box>
           <input
@@ -84,18 +77,6 @@ const Pokemons = () => {
             maxLength="3"
             placeholder="請輸入寶可夢編號"
             onChange={searchHandler}
-          />
-        </Box>
-        <Box>
-          <TablePagination
-            rowsPerPageOptions={[20, 40]}
-            labelRowsPerPage="每頁列數："
-            component="div"
-            count={493}
-            rowsPerPage={rowsPerPage}
-            page={tablePage}
-            onPageChange={handleChangePage}
-            onRowsPerPageChange={handleChangeRowsPerPage}
           />
         </Box>
       </ActionArea>
@@ -112,9 +93,9 @@ const Pokemons = () => {
               <TableCell style={{ minWidth: "100px" }}>
                 <Typography variant="h6">名稱</Typography>
               </TableCell>
-              <TableCell style={{ minWidth: "50px" }} l>
+              {/* <TableCell style={{ minWidth: "50px" }} >
                 <Typography variant="h6">色違</Typography>
-              </TableCell>
+              </TableCell> */}
             </TableRow>
           </TableHead>
           <TableBody>

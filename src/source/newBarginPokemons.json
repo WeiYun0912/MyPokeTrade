@@ -1,0 +1,815 @@
+[
+  {
+    "id": 23,
+    "name": "阿柏蛇",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 482,
+    "name": "亞克諾姆",
+    "comment": "3V LV.50 1換2",
+    "category": "pm"
+  },
+  {
+    "id": 483,
+    "name": "帝牙盧卡",
+    "comment": "3V LV.47 1換2",
+    "category": "pm"
+  },
+  {
+    "id": 484,
+    "name": "帕路奇亞",
+    "comment": "3V LV.47 1換2",
+    "category": "pm"
+  },
+  {
+    "id": 382,
+    "name": "蓋歐卡",
+    "comment": "3V LV.71 1換2",
+    "category": "pm"
+  },
+  {
+    "id": 175,
+    "name": "波克比",
+    "comment": "月亮球",
+    "category": "pm"
+  },
+  {
+    "id": 267,
+    "name": "狩獵鳳蝶",
+    "comment": "甜蜜球",
+    "category": "pm"
+  },
+  {
+    "id": 172,
+    "name": "皮丘",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 278,
+    "name": "長翅鷗",
+    "comment": "",
+    "category": "pm"
+  },
+
+  {
+    "id": 322,
+    "name": "呆火駝",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 318,
+    "name": "利牙魚",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 223,
+    "name": "鐵炮魚",
+    "comment": "月亮球",
+    "category": "pm"
+  },
+  {
+    "id": 324,
+    "name": "煤炭龜",
+    "comment": "沉重球",
+    "category": "pm"
+  },
+  {
+    "id": 431,
+    "name": "魅力喵",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 335,
+    "name": "貓鼬斬",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 118,
+    "name": "角金魚",
+    "comment": "潛水球",
+    "category": "pm"
+  },
+  {
+    "id": 311,
+    "name": "正電拍拍",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 166,
+    "name": "安瓢蟲",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 437,
+    "name": "青銅鐘",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 351,
+    "name": "飄浮泡泡",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 340,
+    "name": "鯰魚王",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 339,
+    "name": "泥泥鰍",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 25,
+    "name": "皮卡丘",
+    "comment": "母",
+    "category": "pm"
+  },
+  {
+    "id": 390,
+    "name": "小火焰猴",
+    "comment": "速度球",
+    "category": "pm"
+  },
+  {
+    "id": 332,
+    "name": "夢歌仙人掌",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 1,
+    "name": "妙娃種子",
+    "comment": "巢穴球",
+    "category": "pm"
+  },
+  {
+    "id": 290,
+    "name": "土居忍者",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 427,
+    "name": "捲捲耳",
+    "comment": "治療球",
+    "category": "pm"
+  },
+  {
+    "id": 472,
+    "name": "天蠍王",
+    "comment": "甜蜜球",
+    "category": "pm"
+  },
+  {
+    "id": 280,
+    "name": "拉魯拉斯",
+    "comment": "補網球 親名 男",
+    "category": "pm"
+  },
+  {
+    "id": 79,
+    "name": "呆呆獸",
+    "comment": "誘餌球",
+    "category": "pm"
+  },
+  {
+    "id": 66,
+    "name": "腕力",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 200,
+    "name": "夢妖",
+    "comment": "月亮球",
+    "category": "pm"
+  },
+  {
+    "id": 16,
+    "name": "波波",
+    "comment": "",
+    "category": "pm"
+  },
+
+  {
+    "id": 262,
+    "name": "土狼犬",
+    "comment": "親名 甜蜜球 友友球 速度球",
+    "category": "pm"
+  },
+  {
+    "id": 336,
+    "name": "飯匙蛇",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 116,
+    "name": "墨海馬",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 32,
+    "name": "尼多朗",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 72,
+    "name": "瑪瑙水母",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 84,
+    "name": "嘟嘟",
+    "comment": "親名 友友球",
+    "category": "pm"
+  },
+  {
+    "id": 352,
+    "name": "變隱龍",
+    "comment": "友友球",
+    "category": "pm"
+  },
+  {
+    "id": 236,
+    "name": "無畏小子",
+    "comment": "甜蜜球",
+    "category": "pm"
+  },
+  {
+    "id": 59,
+    "name": "風速狗",
+    "comment": "甜蜜球",
+    "category": "pm"
+  },
+  {
+    "id": 215,
+    "name": "狃拉",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 41,
+    "name": "超音蝠",
+    "comment": "巢穴球 親名",
+    "category": "pm"
+  },
+  {
+    "id": 92,
+    "name": "鬼斯",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 371,
+    "name": "寶貝龍",
+    "comment": "甜蜜球",
+    "category": "pm"
+  },
+  {
+    "id": 387,
+    "name": "草苗龜",
+    "comment": "巢穴球",
+    "category": "pm"
+  },
+  {
+    "id": 252,
+    "name": "木守宮",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 403,
+    "name": "小貓怪",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 133,
+    "name": "伊布",
+    "comment": "月亮球",
+    "category": "pm"
+  },
+  {
+    "id": 111,
+    "name": "鐵甲犀牛",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 198,
+    "name": "黑暗鴨",
+    "comment": "親名",
+    "category": "pm"
+  },
+  {
+    "id": 131,
+    "name": "拉普拉斯",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 104,
+    "name": "卡拉卡拉",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 277,
+    "name": "大王燕",
+    "comment": "月亮球",
+    "category": "pm"
+  },
+  {
+    "id": 443,
+    "name": "圓陸鯊",
+    "comment": "月亮球",
+    "category": "pm"
+  },
+  {
+    "id": 194,
+    "name": "烏波",
+    "comment": "狩獵球",
+    "category": "pm"
+  },
+  {
+    "id": 458,
+    "name": "小球飛魚",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 265,
+    "name": "刺尾蟲",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 349,
+    "name": "醜醜魚",
+    "comment": "甜蜜球 男",
+    "category": "pm"
+  },
+  {
+    "id": 297,
+    "name": "鐵掌力士",
+    "comment": "甜蜜球",
+    "category": "pm"
+  },
+  {
+    "id": 170,
+    "name": "燈籠魚",
+    "comment": "甜蜜球",
+    "category": "pm"
+  },
+
+  {
+    "id": 4,
+    "name": "小火龍",
+    "comment": "月亮球",
+    "category": "pm"
+  },
+  {
+    "id": 152,
+    "name": "菊草葉",
+    "comment": "友友球",
+    "category": "pm"
+  },
+  {
+    "id": 401,
+    "name": "圓法師",
+    "comment": "月亮球",
+    "category": "pm"
+  },
+  {
+    "id": 137,
+    "name": "多邊獸",
+    "comment": "月亮球",
+    "category": "pm"
+  },
+  {
+    "id": 117,
+    "name": "海刺龍",
+    "comment": "誘餌球",
+    "category": "pm"
+  },
+  {
+    "id": 283,
+    "name": "溜溜糖球",
+    "comment": "誘餌球",
+    "category": "pm"
+  },
+  {
+    "id": 158,
+    "name": "小鋸鱷",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 54,
+    "name": "可達鴨",
+    "comment": "狩獵球",
+    "category": "pm"
+  },
+  {
+    "id": 240,
+    "name": "鴨嘴寶寶",
+    "comment": "月亮球",
+    "category": "pm"
+  },
+  {
+    "id": 315,
+    "name": "毒薔薇",
+    "comment": "甜蜜球 親名",
+    "category": "pm"
+  },
+  {
+    "id": 77,
+    "name": "小火馬",
+    "comment": "潛水球",
+    "category": "pm"
+  },
+  {
+    "id": 467,
+    "name": "鴨嘴炎獸",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 207,
+    "name": "天蠍",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 174,
+    "name": "寶寶丁",
+    "comment": "甜蜜球",
+    "category": "pm"
+  },
+  {
+    "id": 129,
+    "name": "鯉魚王",
+    "comment": "補網球",
+    "category": "pm"
+  },
+  {
+    "id": 241,
+    "name": "大奶罐",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 214,
+    "name": "赫拉克羅斯",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 95,
+    "name": "大岩蛇",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 88,
+    "name": "臭泥",
+    "comment": "親名 友友球",
+    "category": "pm"
+  },
+  {
+    "id": 98,
+    "name": "大鉗蟹",
+    "comment": "誘餌球",
+    "category": "pm"
+  },
+  {
+    "id": 246,
+    "name": "幼基拉斯",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 309,
+    "name": "落雷獸",
+    "comment": "潛水球 親名",
+    "category": "pm"
+  },
+  {
+    "id": 396,
+    "name": "姆克兒",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 239,
+    "name": "電擊怪",
+    "comment": "速度球",
+    "category": "pm"
+  },
+  {
+    "id": 303,
+    "name": "大嘴娃",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 200,
+    "name": "夢妖",
+    "comment": "月亮球",
+    "category": "pm"
+  },
+  {
+    "id": 353,
+    "name": "怨影娃娃",
+    "comment": "友友球",
+    "category": "pm"
+  },
+  {
+    "id": 488,
+    "name": "克雷色利亞",
+    "comment": "3V LV.50 1換2",
+    "category": "pm"
+  },
+  {
+    "id": 213,
+    "name": "壺壺",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 453,
+    "name": "不良蛙",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 216,
+    "name": "熊寶寶",
+    "comment": "甜蜜球",
+    "category": "pm"
+  },
+  {
+    "id": 231,
+    "name": "小小象",
+    "comment": "等級球",
+    "category": "pm"
+  },
+  {
+    "id": 167,
+    "name": "圓絲蛛",
+    "comment": "速度球",
+    "category": "pm"
+  },
+  {
+    "id": 127,
+    "name": "凱羅斯",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 449,
+    "name": "沙河馬",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 114,
+    "name": "藤蔓怪",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 438,
+    "name": "盆才怪",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 439,
+    "name": "魔尼尼",
+    "comment": "月亮球",
+    "category": "pm"
+  },
+  {
+    "id": 61,
+    "name": "蚊香君",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 462,
+    "name": "自爆磁怪",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 463,
+    "name": "大舌舔",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 27,
+    "name": "穿山鼠",
+    "comment": "甜蜜球",
+    "category": "pm"
+  },
+  {
+    "id": 51,
+    "name": "三地鼠",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 71,
+    "name": "大食花",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 115,
+    "name": "袋獸",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 35,
+    "name": "皮皮",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 347,
+    "name": "太古羽蟲",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 18,
+    "name": "大比鳥",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 359,
+    "name": "阿勃梭魯",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 355,
+    "name": "夜巡靈",
+    "comment": "親名 月亮球",
+    "category": "pm"
+  },
+  {
+    "id": 182,
+    "name": "美麗花",
+    "comment": "親名 友友球",
+    "category": "pm"
+  },
+  {
+    "id": 227,
+    "name": "盔甲鳥",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 203,
+    "name": "麒麟奇",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 393,
+    "name": "波加曼",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 312,
+    "name": "負電拍拍",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 155,
+    "name": "火球鼠",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 57,
+    "name": "火爆猴",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 222,
+    "name": "太陽珊瑚",
+    "comment": "潛水球",
+    "category": "pm"
+  },
+  {
+    "id": 399,
+    "name": "大牙狸",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 293,
+    "name": "咕妞妞",
+    "comment": "月亮球",
+    "category": "pm"
+  },
+  {
+    "id": 228,
+    "name": "戴魯比",
+    "comment": "月亮球",
+    "category": "pm"
+  },
+  {
+    "id": 128,
+    "name": "肯泰羅",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 139,
+    "name": "多刺菊石獸",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 83,
+    "name": "大蔥鴨",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 87,
+    "name": "白海獅",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 238,
+    "name": "迷唇娃",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 357,
+    "name": "熱帶龍",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 434,
+    "name": "臭鼬噗",
+    "comment": "甜蜜球",
+    "category": "pm"
+  },
+  {
+    "id": 190,
+    "name": "長尾怪手",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 430,
+    "name": "烏鴉頭頭",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 416,
+    "name": "蜂女王",
+    "comment": "",
+    "category": "pm"
+  },
+  {
+    "id": 234,
+    "name": "驚角鹿",
+    "comment": "誘餌球",
+    "category": "pm"
+  }
+]

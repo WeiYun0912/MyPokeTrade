@@ -15,7 +15,6 @@ function App() {
         <Routes>
           <Route path="/" element={<BargainPokemon />} />
           <Route path="/pokemons" element={<WantPokemonsShiny />} />
-
           <Route path="/item" element={<BarginItem />} />
         </Routes>
       </Container>
